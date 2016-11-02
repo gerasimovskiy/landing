@@ -1,0 +1,116 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	}
+header {
+	background: url(images/intro-bg.jpg);
+	background-attachment: fixed;
+	-webkit-background-size: 100%;
+	     -o-background-size: 100%;
+	        background-size: 100%;
+	background-repeat: no-repeat;
+	padding-top: 311px;
+}
+h1 {
+	font-family: Arial, sans-serif;
+	color: white;
+	font-size: 72px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+h2 {
+	font-family: Arial, sans-serif;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+h3 {
+	font-family: Arial, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+p {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+ul {
+	margin-top: 55px;
+	width: 100%;
+	text-align: center;
+}
+li {
+	display: inline-block;
+	margin-right: 34px;
+	margin-bottom: 300px;
+}
+main {
+	padding: 20px 40px 50px 100px;
+}
+.d-ipad {
+	float: left;
+	padding-top: 50px;
+	width: 41%;
+	height: 346px;
+}
+.ipad {
+	float: right;
+}
+.p-ipad {
+	float: left;
+}
+.doge {
+	float: left;
+	margin-top: 100px;
+}
+.d-doge {
+	float: right;
+	width: 40%;
+	height: 386px;
+	margin-top: 100px;
+}
+
+.phone {
+	float: right;
+	margin-top: 136px;
+}
+.d-phone {
+	float: left;
+	margin-top: 130px;
+	width: 41%;
+}
+footer {
+	background: url(images/banner-bg-u146-fr.jpg);
+	height: 600px;
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+	padding-top: 197px;
+	-webkit-background-size: 100%;
+	     -o-background-size: 100%;
+	        background-size: 100%;
+	background-repeat: no-repeat;
+}
+.footer-ul li {
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-ul li:first-child {
+	font-family: Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	color: white;
+	margin-right: 125px;
+}
+li:hover {
+	opacity: 0.7;
+}
